@@ -39,7 +39,7 @@ export default function Home() {
             simple text prompts.
           </p>
 
-          <Link to="/image-editor">
+          <Link to="/nano">
             <Button
               size="lg"
               className="gradient-primary text-white border-0 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 px-8 py-4 text-lg"
