@@ -13,7 +13,7 @@ A powerful web application for AI-powered image editing using React Router 7, Ta
 
 ## How to Use
 
-1. **Upload an Image**: 
+1. **Upload an Image**:
    - Drag and drop an image or click to browse
    - Supports JPG, PNG, GIF, and other common formats
    - Maximum file size: 10MB
@@ -58,6 +58,7 @@ Visit http://localhost:5173 to see the application running.
 ## API Integration
 
 The application includes structure for integrating with image editing APIs like Stability AI, OpenAI DALL-E, etc. Check `/app/routes/api.edit.tsx` for implementation details.
+
 - 📦 Asset bundling and optimization
 - 🔄 Data loading and mutations
 - 🔒 TypeScript by default
