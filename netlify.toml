@@ -1,6 +1,6 @@
 [build]
 command = "npm run build"
-publish = "public"        # Or your Remix build output directory
+publish = "build"         # Or your Remix build output directory
 
 [[redirects]]
 from = "/*"
