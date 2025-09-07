@@ -1,6 +1,6 @@
 [build]
 command = "npm run build"
-publish = "build/client"    # For React Router SPA mode
+publish = "build/client"  # For React Router SPA mode
 
 [[redirects]]
 from = "/*"
