@@ -29,13 +29,12 @@ export async function action({ request }: ActionFunctionArgs) {
       negativePrompt,
       timestamp: new Date().toISOString(),
     });
-
   } catch (error) {
     console.error("Error processing image edit:", error);
     return Response.json(
-      { 
-        success: false, 
-        error: "Failed to process image edit" 
+      {
+        success: false,
+        error: "Failed to process image edit",
       },
       { status: 500 }
     );
